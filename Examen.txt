@@ -1,0 +1,33 @@
+Evaluacion .Net
+1.- Creacion de base de datos Escuela:
+-------------------------------------------
+Tabla Alumno:
+Id
+Nombre
+Ap
+Am
+Edad
+Sexo
+-------------------------------------------
+Tabla Materias:
+Id
+Descripcion
+-------------------------------------------
+Tabla Calificaciones
+Id
+IdAlumno
+IdMateria
+PrimerParcial
+SegundoParcial
+TercerParcial
+Calificacion
+-------------------------------------------
+2.- Elaborar procedimientos almacenados para CRUD de la base de datos
+Al momento de guardar el TercerParcial en el procedimiento almacenado, que calcule la calificacion
+mediante una funcion en SQL server
+
+-------------------------------------------
+3.- Elaboracion de un API con .Net
+Usar procedimientos almacenados creados en la base de datos
+Exponer los Endpoints con swagger
+Montar el Web API en IIS
